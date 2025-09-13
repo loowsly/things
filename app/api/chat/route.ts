@@ -130,7 +130,7 @@ Resposta: [LETRA]`
       headers: {
         Authorization: `Bearer ${OPENROUTER_API_KEY}`,
         "Content-Type": "application/json",
-        "HTTP-Referer": request.headers.get("referer") || "https://your-domain.com",
+        "HTTP-Referer": request.headers.get("referer") || "https://saladofuturopro.vercel.app",
         "X-Title": "HCK Bookmarklet",
       },
       body: JSON.stringify({
